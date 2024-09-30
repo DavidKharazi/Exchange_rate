@@ -49,7 +49,7 @@ async def stop(update: Update, context):
 # Основная функция
 def main():
     # Инициализация приложения с вашим токеном
-    app = ApplicationBuilder().token("7251328238:AAFYVI9XW9pEXOvOM46cuB5Us1yomjiGkNw").build()
+    app = ApplicationBuilder().token("YOUR_TELEGRAM_BOT_API_TOKEN").build()
 
     # Создаем ConversationHandler для управления состояниями
     conv_handler = ConversationHandler(
